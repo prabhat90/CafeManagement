@@ -1,0 +1,25 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #e8e8e8;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul >li{
+    padding: 3px;
+    text-decoration: none;
+}
+
+.activeList
+{
+    color: brown;
+    cursor: pointer;
+}
